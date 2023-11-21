@@ -1,0 +1,51 @@
+footer {
+    background-color: #dfdce8;
+    text-align: center;
+    
+    flex-direction: column;
+    height: 100%;
+    line-height: 80px;
+    box-shadow: 2px  5px 5px;
+}
+
+#title {
+    margin-bottom: 10px;
+}
+
+#content {
+    margin-bottom: 10px;
+}
+
+.form-action {
+    padding: 20px 0 20px 0;
+    border-style: groove;
+    background-color: #dfdce8;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.text-center {
+    margin-top: 0; /* Riduci o regola questo valore */
+  }
+
+  .nav {
+    padding-bottom: 0; /* Riduci o regola questo valore */
+    margin-bottom: 0;
+  }
+
+  .edit-post {
+    text-align: center;
+}
+
+
+@media (max-width: 400px) {
+
+    .container-top {
+        text-align: center;
+    }
+}
+
